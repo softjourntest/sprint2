@@ -1,0 +1,14 @@
+{
+  "name": "sprint2",
+  "defaultLayout": "PhonePortrait",
+  "previewToken": "ff3f8808",
+  "theme": "Anchor",
+  "clientVersion": "6.1.0-dev",
+  "hidden": false,
+  "isBuiltInTemplate": false,
+  "disableSideMenu": false,
+  "offlineSupport": false,
+  "description": "",
+  "creatorId": "admin",
+  "created": 1589972355744
+}
