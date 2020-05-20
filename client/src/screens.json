@@ -1,5 +1,8 @@
 {
   "id": "__BASE__",
   "name": "sprint2",
-  "screens": []
+  "screens": [],
+  "statusbarContent": "dark",
+  "statusbarHidden": false,
+  "statusbarBackground": null
 }
