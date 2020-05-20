@@ -1,6 +1,7 @@
 {
   "menu": {
     "type": "object",
-    "properties": {}
+    "properties": {},
+    "id": "menu"
   }
 }
