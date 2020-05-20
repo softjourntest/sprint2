@@ -1,8 +1,5 @@
-// Load the SmartUX session runtime.
-let session = require('smartux-connect');
-
-// API Connectors
-
-// Web Connectors
-
+const session = require('smartux-connect');
+session.transform.sprint22 = session.loadTransform('sprint22');
+require('./client');
+require('./transform/sprint22');
 session.start();
