@@ -4,6 +4,5 @@
   "screens": [],
   "statusbarContent": "dark",
   "statusbarHidden": false,
-  "statusbarBackground": null,
-  "startScreen": null
+  "statusbarBackground": null
 }
