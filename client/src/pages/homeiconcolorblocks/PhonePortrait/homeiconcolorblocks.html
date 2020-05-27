@@ -1,0 +1,134 @@
+<ion-header data-comp-id="header.1">
+    <ion-navbar data-comp-id="navbar.1">
+        <button data-comp-id="button.1" icon-only="" ion-button="" menuToggle="">
+            <ion-icon class="ion-ios-menu" name="menu"></ion-icon>
+        </button>
+        <ion-buttons data-comp-id="buttons.1" left=""></ion-buttons>
+        <ion-title data-comp-id="title.1" text-center="">
+            <div data-comp-id="text.11" ion-text="">Home</div>
+        </ion-title>
+        <ion-buttons data-comp-id="buttons.2" right="">
+            <button data-comp-id="button.2" icon-only="" ion-button=""
+                style="font-size: 17px;">
+                <ion-icon class="ion-ios-search"></ion-icon>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+<ion-content class="content-light" data-comp-id="content.1">
+    <ion-row data-comp-id="row.1" style="padding: 0px; margin: 1px 0px;">
+        <ion-col (click)="action('help')" col-7="" data-comp-id="column.1"
+            style="padding: 65px 0px; margin: 5px 0px 2px 3px; text-align: center; background-color: #9DC8E5;">
+            <ion-icon class="ion-ios-help-buoy" data-comp-id="icon.1"
+                style="font-size: 30px; color: rgb(255,255,255);"></ion-icon>
+            <div data-comp-id="text.1" ion-text=""
+                style="font-size: 18px; margin: 5px; color: rgb(255,255,255)">Help
+                <br>Documentation</div>
+        </ion-col>
+        <ion-col data-comp-id="column.2" style="padding: 2px; margin: 0px;">
+            <ion-row (click)="action('alerts')" data-comp-id="row.2"
+                style="margin: 3px 2px 2px 1px; padding: 10px; background-color: rgb(239,59,79);">
+                <ion-col align-self-center="" data-comp-id="column.3"
+                    style="text-align: center; padding: 20px;">
+                    <ion-icon class="fa fa-bell" data-comp-id="icon.2"
+                        style="font-size: 30px; color: rgb(255,255,255);"></ion-icon>
+                    <div data-comp-id="text.2" ion-text=""
+                        style="font-size: 18px; color: rgb(255,255,255); margin: 5px;">Alerts</div>
+                </ion-col>
+            </ion-row>
+            <ion-row (click)="action('newIssue')" data-comp-id="row.3"
+                style="margin: 3px 2px 0px 1px; padding: 10px; background-color: rgb(131,107,206);">
+                <ion-col align-self-center="" data-comp-id="column.4"
+                    style="padding: 20px 0px; text-align: center;">
+                    <ion-icon class="fa fa-plus-circle" data-comp-id="icon.3"
+                        style="font-size: 30px; color: rgb(255,255,255);"></ion-icon>
+                    <div data-comp-id="text.3" ion-text=""
+                        style="margin: 5px; font-size: 18px; color: rgb(255,255,255)">New Issue</div>
+                </ion-col>
+            </ion-row>
+        </ion-col>
+    </ion-row>
+    <ion-row data-comp-id="row.4" style="padding: 0px; margin: -2px 4px 2px 0px;">
+        <ion-col data-comp-id="column.5" style="padding: 2px; margin: 0px;">
+            <ion-row (click)="action('alerts')" data-comp-id="row.5"
+                style="margin: 1px 1px 2px 1px; padding: 10px; background-color: rgb(90,150,205);">
+                <ion-col align-self-center="" data-comp-id="column.6"
+                    style="text-align: center; padding: 20px;">
+                    <ion-icon class="ion-ios-eye" data-comp-id="icon.4"
+                        style="font-size: 30px; color: rgb(255,255,255);"></ion-icon>
+                    <div data-comp-id="text.4" ion-text=""
+                        style="font-size: 18px; color: rgb(255,255,255); margin: 5px;">Monitor</div>
+                </ion-col>
+            </ion-row>
+            <ion-row (click)="action('newIssue')" data-comp-id="row.6"
+                style="margin: 3px 2px 0px 1px; padding: 10px; background-color: rgb(225,121,73);">
+                <ion-col align-self-center="" data-comp-id="column.7"
+                    style="padding: 20px 0px; text-align: center;">
+                    <ion-icon class="ion-md-person" data-comp-id="icon.5"
+                        style="font-size: 30px; color: rgb(255,255,255);"></ion-icon>
+                    <div data-comp-id="text.5" ion-text=""
+                        style="margin: 5px; font-size: 18px; color: rgb(255,255,255)">Unassigned</div>
+                </ion-col>
+            </ion-row>
+        </ion-col>
+        <ion-col (click)="action('help')" col-7="" data-comp-id="column.8"
+            style="padding: 65px 0px; margin: 3px 0px 2px 0px; text-align: center; background-color: rgb(45,105,176);">
+            <ion-icon class="ion-ios-clipboard" data-comp-id="icon.6"
+                style="font-size: 30px; color: rgb(255,255,255);"></ion-icon>
+            <div data-comp-id="text.6" ion-text=""
+                style="font-size: 18px; margin: 5px; color: rgb(255,255,255)">Assigned
+                <br>Jobs</div>
+        </ion-col>
+    </ion-row>
+    <ion-row data-comp-id="row.7">
+        <ion-col data-comp-id="column.9">
+            <ion-row data-comp-id="row.8">
+                <ion-col data-comp-id="column.10"></ion-col>
+            </ion-row>
+            <ion-row data-comp-id="row.9">
+                <ion-col data-comp-id="column.11"></ion-col>
+            </ion-row>
+        </ion-col>
+        <ion-col data-comp-id="column.12"></ion-col>
+    </ion-row>
+</ion-content>
+<ion-footer data-comp-id="footer.1" style="background-color: #cccccc;">
+    <ion-row data-comp-id="row.10" style="margin: 0px; padding: 0px;">
+        <ion-col col-3="" data-comp-id="column.13"
+            style="padding: 0px; margin: 0px; text-align: center;">
+            <button block="" class="text-on-bottom" clear="" data-comp-id="button.3"
+                icon-only="" icon-start="" ion-button=""
+                style="color: #756363; font-size: 14px; margin: 0px;">
+                <ion-icon class="fa fa-history" color="dark"></ion-icon>
+            </button>
+            <div color="dark" data-comp-id="text.7" ion-text="" style="margin: 0 0 10px;">History</div>
+        </ion-col>
+        <ion-col col-3="" data-comp-id="column.14"
+            style="margin: 0px; padding: 0px; text-align: center;">
+            <button block="" class="text-on-bottom" clear="" data-comp-id="button.4"
+                icon-only="" icon-start="" ion-button=""
+                style="color: #756363; font-size: 14px; margin: 0px;">
+                <ion-icon class="fa fa-phone" color="dark"></ion-icon>
+            </button>
+            <div color="dark" data-comp-id="text.8" ion-text="" style="margin: 0 0 5px;">Contacts</div>
+        </ion-col>
+        <ion-col col-3="" data-comp-id="column.15"
+            style="margin: 0px; padding: 0px; text-align: center;">
+            <button block="" class="text-on-bottom" clear="" data-comp-id="button.5"
+                icon-only="" icon-start="" ion-button=""
+                style="color: #756363; font-size: 14px; margin: 0px;">
+                <ion-icon class="ion-md-folder" color="dark"></ion-icon>
+            </button>
+            <div color="dark" data-comp-id="text.9" ion-text="" style="margin: 0 0 5px;">Case</div>
+        </ion-col>
+        <ion-col col-3="" data-comp-id="column.16"
+            style="margin: 0px; padding: 0px; text-align: center;">
+            <button block="" class="text-on-bottom" clear="" data-comp-id="button.6"
+                icon-only="" icon-start="" ion-button=""
+                style="color: #756363; font-size: 14px; margin: 0px;">
+                <ion-icon class="fa fa-location-arrow" color="dark"></ion-icon>
+            </button>
+            <div color="dark" data-comp-id="text.10" ion-text="" style="margin: 0 0 5px;">Location</div>
+        </ion-col>
+    </ion-row>
+</ion-footer>

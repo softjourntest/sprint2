@@ -1,8 +1,16 @@
 {
   "id": "__BASE__",
   "name": "sprint2",
-  "screens": [],
+  "screens": [
+    {
+      "id": "homeiconcolorblocks",
+      "name": "HomeIconColorBlocks",
+      "sourceScreenId": "Home_homeiconcolorblocks",
+      "sourceAppId": "StrawberryTemplates"
+    }
+  ],
   "statusbarContent": "dark",
   "statusbarHidden": false,
-  "statusbarBackground": null
+  "statusbarBackground": null,
+  "startScreen": "homeiconcolorblocks"
 }

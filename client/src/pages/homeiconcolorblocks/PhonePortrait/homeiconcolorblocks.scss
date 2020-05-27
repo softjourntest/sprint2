@@ -1,0 +1,10 @@
+screen-homeiconcolorblocks-phoneportrait {
+    .text-on-bottom > .button-inner {
+        flex-direction: column;
+    }
+
+    .text-on-bottom .label {
+        font-size: 9px;
+        margin-top: 8px;
+    }
+}
