@@ -1,8 +1,16 @@
 {
   "id": "__BASE__",
   "name": "test",
-  "screens": [],
+  "screens": [
+    {
+      "id": "loginsimplelight",
+      "name": "Login-SimpleLight",
+      "sourceScreenId": "Login_LoginSimpleLight",
+      "sourceAppId": "StrawberryTemplates"
+    }
+  ],
   "statusbarContent": "dark",
   "statusbarHidden": false,
-  "statusbarBackground": null
+  "statusbarBackground": null,
+  "startScreen": "loginsimplelight"
 }
